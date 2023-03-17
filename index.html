@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <h1>Save to Mem</h1>
+  <label for="api-key">API Key:</label>
+  <input type="text" id="api-key">
+  <label for="notes">Notes and Tags:</label>
+  <textarea id="notes"></textarea>
+  
+  <input type="checkbox" id="optional-tags" name="optional-tags">
+  <label for="optional-tags">AI tags</label><br>
+
+  <input type="checkbox" id="option-parsing" name="option-parsing">
+  <label for="option-parsing">AI parsing (might take a few seconds)</label><br>
+
+  <input type="checkbox" id="create-new-mem" />
+  <label for="create-new-mem">Create new Mem</label>
+  
+  <button id="save-button">Save to Mem</button>
+  <script src="index.js"></script>
+
+  <div id="message-container"></div>
+
+</body>
+</html>
